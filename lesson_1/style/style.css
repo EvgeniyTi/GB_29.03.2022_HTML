@@ -1,0 +1,41 @@
+:root {
+    --black: #222222;
+    --light-pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--black);
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+.main__brandman {
+    display: flex;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
