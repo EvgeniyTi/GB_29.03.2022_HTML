@@ -1,3 +1,5 @@
+/*________________Index.html________________*/
+
 /*________________Variebles________________*/
 
 :root {
@@ -470,7 +472,7 @@ img {
 
 }
 
-.review_flex {
+.review__flex {
     display: flex;
     justify-content: space-between;
 }
@@ -587,4 +589,27 @@ img {
 .brandsafe__smm-footer {
     padding: 8px 12px;
     background-color: #fff;
+}
+
+
+/*________________Registration.HTML________________*/
+
+/*________________Navigation________________*/
+.navigation {
+    background-color: #F8F3F4;
+}
+
+.navigation__text {
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--dark-pink);
+    padding: 60px 0;
+    text-transform: uppercase;
+}
+
+/*________________Registration________________*/
+
+.registration__flex {
+    display: flex;
+    justify-content: space-between;
 }
