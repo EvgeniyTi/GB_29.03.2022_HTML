@@ -1,0 +1,36 @@
+/*________________Loyality________________*/
+
+.loyalty {
+    width: 100%;
+    max-width: 652px;
+    padding: 64px 0 277px 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: $black;
+
+}
+
+.loyalty__header {
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.loyalty__text {
+    margin-bottom: 21px;
+}
+
+.loyalty__list {
+    list-style: none;
+}
+
+.loyalty__list-item:before {
+    content: url(../img/loyality__checkbox.jpg) " ";
+    padding-right: 22px;
+}
+
+.loyalty__list-item:not(:last-child) {
+    margin-bottom: 16px;
+}

@@ -1,0 +1,80 @@
+/*________________Registration________________*/
+
+.registration__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration__form {
+    margin: 64px 0 96px 0;
+}
+
+.registration__name {
+    margin-bottom: 33px;
+}
+
+.registration__name-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $black;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.registration__form-name {
+    width: 100%;
+    max-width: 360px;
+    padding: 13px 0 16px 17px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    border: 1px solid $form-border-color;
+    margin-bottom: 20px;
+}
+
+.registration__form-svg {
+    margin-left: 20px;
+}
+
+.registration__checkbox {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.registration__button {
+    width: auto;
+    background: $dark-pink;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: $white-white;
+    padding: 16px 29px 17px 29px;
+    text-transform: uppercase;
+    border: 1px solid $dark-pink;
+
+}
+
+.registration__gender {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: $black;
+    text-transform: capitalize;
+}
+
+.registration__subtext {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: $grey;
+    width: 390px;
+    margin-bottom: 39px;
+}

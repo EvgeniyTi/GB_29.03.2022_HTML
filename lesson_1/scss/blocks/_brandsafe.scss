@@ -1,0 +1,40 @@
+.brandsafe {
+    background-color: $black;
+
+}
+
+.brandsafe__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandsafe__title {
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+    padding: 30px 0;
+    text-transform: capitalize
+}
+
+.brandsafe__smm-list {
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandsafe__smm-item {
+    margin-left: 7px;
+
+
+}
+
+.brandsafe__smm-footer:hover {
+    fill: $white;
+    background-color: $dark-pink;
+
+}
+
+.brandsafe__smm-footer {
+    padding: 8px 12px;
+    background-color: $white-white;
+}
