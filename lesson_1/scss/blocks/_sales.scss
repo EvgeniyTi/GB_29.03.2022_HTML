@@ -1,0 +1,64 @@
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sales__item {
+    padding: 20px;
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 260px;
+
+}
+
+.sales__item--woman {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/for_girl.jpg);
+
+}
+
+.sales__item--man {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/for_man.jpg);
+
+}
+
+.sales__item--kids {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/for_kids.jpg);
+
+}
+
+.sales__item--shoes {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/for_accesories.jpg);
+    width: 100%;
+    min-height: 180px;
+    margin-top: 30px;
+}
+
+.sales__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+
+}
+
+.sales__title {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--white-white);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sales__pink {
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--dark-pink);
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+}
